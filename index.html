@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riccardo Capoferri - Innovation Enthusiast</title>
+    <meta name="description"
+        content="Riccardo Capoferri is a Bocconi Economics and Management student building toward AI engineering for robotics systems.">
+    <meta name="author" content="Riccardo Capoferri">
+    <meta name="keywords"
+        content="Riccardo Capoferri, Bocconi University, AI engineering, robotics systems, economics and management, scientific computing">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Riccardo Capoferri - Innovation Enthusiast">
+    <meta property="og:description"
+        content="A minimal personal site for projects, education, hackathons, and scientific interests.">
+    <meta property="og:site_name" content="Riccardo Capoferri">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="field" aria-hidden="true"></canvas>
+
+    <header class="floating-header" aria-label="Site header">
+        <button class="name-link" type="button" data-section="home">Riccardo Capoferri</button>
+        <p>Innovation Enthusiast</p>
+    </header>
+
+    <nav class="floating-nav" aria-label="Primary navigation">
+        <button class="active" type="button" data-section="home">Home</button>
+        <button type="button" data-section="education">Education</button>
+        <button type="button" data-section="projects">Projects</button>
+        <button type="button" data-section="honors">Honors</button>
+        <button type="button" data-section="contact">Contact</button>
+    </nav>
+
+    <main class="free-stage">
+        <section class="content-panel" aria-live="polite">
+            <div id="home-content" class="view view-active">
+                <p class="eyebrow">Builder trajectory</p>
+                <h1>Learning to build intelligent systems for the physical world.</h1>
+
+                <div class="lead-copy">
+                    <p>
+                        I am a second-year Economics and Management student at Bocconi University, moving from business
+                        foundations into code, robotics, and AI engineering.
+                    </p>
+                    <p>
+                        In parallel with university, I am building a stronger technical background to move toward
+                        AI engineering, robotics systems, and the transfer between theory and working products.
+                    </p>
+                </div>
+
+                <div class="current-map" aria-label="Current path">
+                    <p><span>base</span> Bocconi University, Economics and Management</p>
+                    <p><span>next</span> Northeastern University, Boston, Fall 2027</p>
+                    <p><span>pull</span> AI engineering, robotics systems, physics, cognition</p>
+                </div>
+
+                <div class="interest-block" aria-label="Interests">
+                    <p>Interests</p>
+                    <div class="interest-row">
+                        <span>Science</span>
+                        <span>Physics</span>
+                        <span>Robotics</span>
+                        <span>Coding</span>
+                        <span>Neuroscience</span>
+                        <span>Human performance</span>
+                        <span>Sci-fi reader</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dynamic-content" class="view"></div>
+        </section>
+    </main>
+
+    <aside class="side-note" aria-label="Direction">
+        <p>AI systems</p>
+        <p>Robotics</p>
+        <p>Cognitive performance</p>
+    </aside>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
