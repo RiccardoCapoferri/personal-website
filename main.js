@@ -22,7 +22,7 @@ const sections = {
             },
             {
                 title: "Northeastern University",
-                meta: "Incoming Exchange Student - Boston, Massachusetts - Fall 2027",
+                meta: "Incoming Exchange Student - Boston, Massachusetts - Spring 2027",
                 details: [
                     "Planned coursework includes Robotic Science and Systems.",
                     "The exchange is part of a broader move toward technical systems, robotics, and applied AI."
