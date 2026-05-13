@@ -29,6 +29,14 @@ const sections = {
                 ]
             },
             {
+                title: "Huckabay ISD (Texas, USA)",
+                meta: "High School Exchange Year - Fourth year",
+                details: [
+                    "GPA: 4.0 (all final grades above 97).",
+                    "Relevant coursework and grades: Economics (99), Government (100, half credit), English (97), Principles of Agriculture, Food, and Natural Resources (100), Anatomy and Physiology (98), Financial Mathematics (100)."
+                ]
+            },
+            {
                 title: "IIS Antonietti",
                 meta: "Liceo Scientifico - Applied Sciences",
                 details: [
