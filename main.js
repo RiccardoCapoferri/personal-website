@@ -9,7 +9,7 @@ const sections = {
                 details: [
                     "Building a stronger technical path in parallel with university toward AI engineering and robotics systems.",
                     "Relevant coursework: Statistics, Macroeconomics, Microeconomics, Computer Science, Mathematics.",
-                    "Planned coursework: Theoretical Computer Science and Stochastic Processes."
+                    "Planned coursework: Theoretical Computer Science and Advanced Python."
                 ]
             },
             {
@@ -17,14 +17,14 @@ const sections = {
                 meta: "Supplementary engineering coursework",
                 details: [
                     "Additional coursework to strengthen my quantitative and engineering background.",
-                    "Planned courses: Mathematical Analysis, Linear Algebra and Geometry."
+                    "Planned courses: Linear Algebra and Geometry."
                 ]
             },
             {
                 title: "Northeastern University",
                 meta: "Incoming Exchange Student - Boston, Massachusetts - Spring 2027",
                 details: [
-                    "Planned coursework includes Robotic Science and Systems.",
+                    "Planned coursework includes Robotic Science and Systems and MATH 3341 Dynamical Systems.",
                     "The exchange is part of a broader move toward technical systems, robotics, and applied AI."
                 ]
             },
@@ -48,8 +48,7 @@ const sections = {
                 meta: "Personal website - 2023",
                 details: [
                     "Built a website describing my PCTO experiences from 10th grade through 12th grade.",
-                    "Translated school work into a structured web narrative using HTML and CSS.",
-                    "First meaningful proof that I enjoyed turning ideas into usable interfaces."
+                    "Translated school work into a structured web narrative using HTML and CSS."
                 ]
             },
             {
@@ -83,6 +82,8 @@ const sections = {
                 title: "ISE Hackathon Finalist",
                 meta: "Innovation Track - Customer experience enhancer",
                 details: [
+                    "The hackathon took place in Barcelona.",
+                    "The project focused on a RAG system and AV technologies.",
                     "Reached the final round with a project focused on improving customer experience.",
                     "Built and presented the concept through a pitch deck for the Innovation Track."
                 ],
