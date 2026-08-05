@@ -13,19 +13,19 @@ const sections = {
                 ]
             },
             {
-                title: "University of Brescia (UNIBS)",
-                meta: "Supplementary engineering coursework",
+                title: "Imperial College",
+                meta: "Data Science & AI Summer Course",
                 details: [
-                    "Additional coursework to strengthen my quantitative and engineering background.",
-                    "Planned courses: Linear Algebra and Geometry."
+                    "I attended an intensive two-week summer course and explored key topics including"
+                    "mathematical aspects of AI, computer vision, NLP, data visualization, big data, and AI for data science.",
                 ]
             },
             {
                 title: "Northeastern University",
                 meta: "Incoming Exchange Student - Boston, Massachusetts - Spring 2027",
                 details: [
-                    "Planned coursework includes Robotic Science and Systems and MATH 3341 Dynamical Systems.",
-                    "The exchange is part of a broader move toward technical systems, robotics, and applied AI."
+                    "Planned coursework includes Robotic Science and Systems and Stochastic Processes.",
+                    "The exchange is part of a broader move toward technical systems, applied AI and robotics."
                 ]
             },
             {
@@ -33,7 +33,7 @@ const sections = {
                 meta: "High School Exchange Year - Fourth year",
                 details: [
                     "GPA: 4.0 (all final grades above 97).",
-                    "Relevant coursework and grades: Economics (99), Government (100, half credit), English (97), Principles of Agriculture, Food, and Natural Resources (100), Anatomy and Physiology (98), Financial Mathematics (100)."
+                    "Relevant coursework and grades: Economics (99), Government (100), English (97), Anatomy and Physiology (98), Financial Mathematics (100)."
                 ]
             },
             {
@@ -97,6 +97,16 @@ const sections = {
                 ],
                 link: "https://drive.google.com/file/d/1O0YeT18TvMUUdYRC1yaLFvMuDf2Qf-nK/preview",
                 label: "Open pitch deck"
+            },
+            {
+                
+                title: "Imperial Summer Course Award",
+                meta: "Two-week intensive challenge - Best project award",
+                details: [
+                    "Two-week intensive summer school project on dermoscopic lesion analysis"
+                    "covering lesion segmentation, dermoscopic attribute prediction, and structured report generation."
+                    "Won the competition and received the award for best project bby achieving the best scores across the tasks"
+                ]
             }
         ]
     },
@@ -107,7 +117,7 @@ const sections = {
 };
 
 const canvas = document.getElementById("field");
-const ctx = canvas.getContext("2d");
+const = canvas.getContext("2d");
 const navButtons = document.querySelectorAll("[data-section]");
 const homeContent = document.getElementById("home-content");
 const dynamicContent = document.getElementById("dynamic-content");
